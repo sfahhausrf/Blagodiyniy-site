@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Благодійна організація</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Допоможи зараз!</h1>
+    <p>Наша місія – допомогти тим, хто цього потребує.</p>
+    <button onclick="location.href='#donate'">Зробити внесок</button>
+  </header>
+
+  <section id="projects">
+    <h2>Наші проєкти</h2>
+    <div class="project-card">
+      <img src="project1.jpg" alt="Проєкт 1">
+      <h3>Проєкт 1</h3>
+      <p>Короткий опис проєкту 1.</p>
+    </div>
+    <div class="project-card">
+      <img src="project2.jpg" alt="Проєкт 2">
+      <h3>Проєкт 2</h3>
+      <p>Короткий опис проєкту 2.</p>
+    </div>
+  </section>
+
+  <section id="stories">
+    <h2>Історії успіху</h2>
+    <div class="story">
+      <p>"Дякую вашій організації за допомогу!"</p>
+      <span>— Олена</span>
+    </div>
+    <div class="story">
+      <p>"Ви змінили моє життя!"</p>
+      <span>— Андрій</span>
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2>Зробіть пожертву</h2>
+    <form>
+      <label for="amount">Сума:</label>
+      <input type="number" id="amount" name="amount" placeholder="Введіть суму">
+      <button type="submit">Зробити внесок</button>
+    </form>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакти</h2>
+    <p>Адреса: вул. Прикладна, 1, Київ</p>
+    <p>Соцмережі: Facebook | Instagram | Telegram</p>
+    <form>
+      <label for="message">Ваше запитання:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+  </section>
+
+  <section id="map">
+    <h2>Де ми працюємо</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.123456!2d30.123456!3d50.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c123456789ab%3A0xabcdef1234567890!2sKyiv!5e0!3m2!1suk!2sua!4v1690000000000!5m2!1suk!2sua" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Благодійна організація</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
